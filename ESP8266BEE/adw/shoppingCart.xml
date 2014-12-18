@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="bee" library="socket" partname="BEE" partno="29020013" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="bee"/>
+	</component>
+	<component cell="led" library="diode" partname="LED" partno="25310000" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="green"/>
+	</component>
+	<component cell="res" library="discrete" partname="RES" partno="22010073" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="1KR|J|0603"/>
+	</component>
+	<component cell="led" library="diode" partname="LED" partno="25310001" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="red"/>
+	</component>
+	<component cell="led" library="diode" partname="LED" partno="25310002" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="blue"/>
+	</component>
+	<component cell="s_1p2t" library="switch" partname="S_1P2T" partno="27080002" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="SMD_7P"/>
+	</component>
+</sc:shoppingCart>

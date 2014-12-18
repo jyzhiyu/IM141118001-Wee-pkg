@@ -1,0 +1,123 @@
+\t (00:00:00) allegro 16.5 S057 (v16-5-13DL) i86
+\t (00:00:00)     Journal start - Tue Dec 16 21:09:06 2014
+\t (00:00:00)         Host=RD-DEP001 User=jyzhiyu Pid=8072 CPUs=4
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/wee.brd
+\i (00:00:01) trapsize 81
+\i (00:00:01) trapsize 79
+\i (00:00:01) trapsize 81
+\i (00:00:01) trapsize 82
+\i (00:00:01) trapsize 82
+\i (00:00:02) placementedit 
+\i (00:00:03) setwindow form.vf_vis
+\i (00:00:03) FORM vf_vis colorview_list Film: asssemblyBottom 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 549.1 869.9
+\i (00:00:06) trapsize 41
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 186.6 956.5
+\i (00:00:06) trapsize 82
+\i (00:00:10) change 
+\i (00:00:12) drag_start grid 18.6 946.6
+\i (00:00:12) drag_stop 1094.7 439.0
+\e (00:00:12) ERROR(SPMHGE-554): Text already matches option panel settings.
+\t (00:00:12) Changed 1 items out of 11 items found.
+\i (00:00:13) prepopup 1168.8 737.3
+\i (00:00:13) done 
+\i (00:00:14) placementedit 
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 567.3 872.4
+\i (00:00:14) trapsize 41
+\i (00:00:15) move 
+\t (00:00:15) Select element(s) to move.
+\i (00:00:16) pick grid 597.8 842.8
+\t (00:00:16) last pick:  600.0  840.0
+\t (00:00:16) last pick:  570.0  840.0
+\t (00:00:16) Moving R8 / RES-10KR|J|0603,1 / STD0603.
+\t (00:00:16) Pick new location for the element(s).
+\i (00:00:17) cancel 
+\i (00:00:18) placementedit 
+\i (00:00:18) cancel 
+\i (00:00:18) placementedit 
+\i (00:00:19) move 
+\t (00:00:19) Select element(s) to move.
+\i (00:00:20) setwindow form.find
+\i (00:00:20) FORM find symbols NO 
+\i (00:00:21) FORM find text YES 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) pick grid 593.7 837.0
+\t (00:00:22) last pick:  590.0  840.0
+\t (00:00:22) last pick:  570.0  838.5
+\t (00:00:22) Pick new location for the element(s).
+\i (00:00:23) pick grid 653.9 835.4
+\t (00:00:23) last pick:  650.0  840.0
+\i (00:00:23) pick grid 575.6 850.2
+\t (00:00:23) last pick:  580.0  850.0
+\t (00:00:23) last pick:  560.5  860.0
+\t (00:00:23) Pick new location for the element(s).
+\i (00:00:24) pick grid 611.0 765.3
+\t (00:00:24) last pick:  610.0  770.0
+\i (00:00:24) pick grid 442.1 850.2
+\t (00:00:24) last pick:  440.0  850.0
+\t (00:00:24) last pick:  457.4  862.0
+\t (00:00:24) Pick new location for the element(s).
+\i (00:00:25) pick grid 505.6 763.7
+\t (00:00:25) last pick:  510.0  760.0
+\i (00:00:26) pick grid 676.9 743.9
+\t (00:00:26) last pick:  680.0  740.0
+\i (00:00:26) save 
+\i (00:00:28) fillin yes 
+\i (00:00:28) placementedit 
+\i (00:00:32) pick grid 685.2 652.4
+\t (00:00:32) last pick:  690.0  650.0
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 685.2 652.4
+\i (00:00:32) trapsize 82
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 685.2 652.5
+\t (00:00:33) Grids are drawn 20.0, 20.0 apart for enhanced viewability.
+\i (00:00:33) trapsize 165
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 685.2 652.5
+\i (00:00:33) trapsize 82
+\i (00:06:12) pick grid 317.7 1049.6
+\t (00:06:12) last pick:  320.0  1050.0
+\i (00:06:15) plot 
+\i (00:06:19) plot setup 
+\i (00:06:21) setwindow form.fpfileplotsetup
+\i (00:06:21) FORM fpfileplotsetup cancel  
+\i (00:06:21) setwindow pcb
+\i (00:06:21) placementedit 
+\i (00:06:24) plot 
+\i (00:06:25) plotwint initialize "pdfFactory Pro"
+\i (00:06:25) plotwint orientation 2
+\i (00:06:25) plotwint papername "A4"
+\i (00:06:25) plotwint defaultsource 1
+\i (00:06:25) plotwint printquality 600
+\i (00:06:25) plotwint color 2
+\i (00:06:25) plotwint execute
+\i (00:06:54) setwindow form.vf_vis
+\i (00:06:54) FORM vf_vis colorview_list Film: assemblyTop 
+\i (00:06:58) setwindow pcb
+\i (00:06:58) plot setup 
+\i (00:06:59) setwindow form.fpfileplotsetup
+\i (00:06:59) FORM fpfileplotsetup fpplotmirror NO 
+\i (00:07:00) FORM fpfileplotsetup done  
+\i (00:07:00) setwindow pcb
+\i (00:07:00) placementedit 
+\i (00:07:04) plot 
+\i (00:07:06) plotwint initialize "pdfFactory Pro"
+\i (00:07:06) plotwint execute
+\i (00:07:15) save 
+\i (00:07:17) fillin yes 
+\i (00:07:17) placementedit 
+\i (00:07:18) exit 
+\t (00:07:18)     Journal end - Tue Dec 16 21:16:24 2014

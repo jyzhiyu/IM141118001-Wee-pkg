@@ -1,0 +1,2 @@
+DEFINE esp8266bee_lib worklib
+INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib

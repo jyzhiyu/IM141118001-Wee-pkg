@@ -1,0 +1,304 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : wee.brd                                       )
+(    Software Version : 16.5S056                                      )
+(    Date/Time        : Tue Dec 16 20:41:54 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < drillmap >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/drillmap.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: 0 width line found at (1300.0 297.0)
+           ... using undefined line width of 1.0
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 1.0
+
+    WARNING: text composed 0 width line found at (1749.5 671.5)
+           ... using undefined line width of 1.0
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 1.0
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+
+     drillmap created with warnings
+
+
+================================================================
+     PROCESSING FILM < outline >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/outline.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+
+     outline created.
+
+
+================================================================
+     PROCESSING FILM < smb >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/smb.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.02360                                  DARK 
+  CIRCLE     0.05310                                  DARK 
+  SQUARE     0.10500                     0.000 NO     DARK 
+  RECTANGLE  0.04330     x 0.04130       0.000 NO     DARK 
+  RECTANGLE  0.04330     x 0.04130      90.000 NO     DARK 
+  RECTANGLE  0.05310     x 0.05710      90.000 NO     DARK 
+  RECTANGLE  0.07480     x 0.04920      90.000 NO     DARK 
+  OBLONG     0.03190     x 0.08070       0.000 NO     DARK 
+  PAD SHAPE  SRX0_40Y0_90R0_10          90.000 YES    DARK 
+  PAD SHAPE  SRX0_40Y0_90R0_10         180.000 YES    DARK 
+
+     smb created.
+
+
+================================================================
+     PROCESSING FILM < smt >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/smt.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.02360                                  DARK 
+  CIRCLE     0.05310                                  DARK 
+  RECTANGLE  0.03940     x 0.02760      90.000 NO     DARK 
+  RECTANGLE  0.04130     x 0.03940      90.000 NO     DARK 
+  RECTANGLE  0.06500     x 0.02760       0.000 NO     DARK 
+
+     smt created.
+
+
+================================================================
+     PROCESSING FILM < silktop >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/silktop.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00980                                  DARK 
+  CIRCLE     0.01180                                  DARK 
+
+     silktop created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: Film contains DRC error(s).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01970                                  DARK 
+  CIRCLE     0.02360                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.04920                                  DARK 
+  SQUARE     0.10000                     0.000 NO     DARK 
+  RECTANGLE  0.03940     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.03940     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.05120     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.07090     x 0.04530      90.000 NO     DARK 
+  OBLONG     0.02400     x 0.07280       0.000 NO     DARK 
+  PAD SHAPE  SRX0_30Y0_80R0_10          90.000 YES    DARK 
+  PAD SHAPE  SRX0_30Y0_80R0_10         180.000 YES    DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01970                                  DARK 
+  CIRCLE     0.02360                                  DARK 
+  CIRCLE     0.04920                                  DARK 
+  RECTANGLE  0.03740     x 0.03540      90.000 NO     DARK 
+  RECTANGLE  0.03940     x 0.02760      90.000 NO     DARK 
+  RECTANGLE  0.06100     x 0.02360       0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < silkbottom >
+     TO FILE < C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/gerber/silkbottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00790                                  DARK 
+  CIRCLE     0.00980                                  DARK 
+
+     silkbottom created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        drillmap created with warnings
+        outline created.
+        smb created.
+        smt created.
+        silktop created.
+        BOTTOM created with warnings
+        TOP created.
+        silkbottom created.
+
+ ARTWORK had warnings

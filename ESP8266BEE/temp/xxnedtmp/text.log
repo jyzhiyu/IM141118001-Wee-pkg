@@ -1,0 +1,201 @@
+Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014
+Copyright 2011 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2040): Specify the command "page forcereset all" to reset logical page numbers of all pages of this block.
+WARNING(SPCOCN-1523): Invalid set option: <search_history_count>
+INFO(SPCOCN-1177): Unexpected text: <5>
+WARNING(SPCOCN-1523): Invalid set option: <search_history>
+WARNING(SPCOCN-1523): Invalid set option: <search_toolbar_lookin>
+INFO(SPCOCN-1177): Unexpected text: <PAGE>
+WARNING(SPCOCN-1523): Invalid set option: <modify_quick_reset_filters>
+INFO(SPCOCN-1177): Unexpected text: <OFF>
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading C:\Users\jyzhiyu\Dropbox\work\ESP8266BEE\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1446): New schematic SCH.SCH.1.1 started as drawing #1.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'C:\Cadence\SPB_16.5\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1195): Group contains:   4 bodies   20 properties   0 notes   16 wires   4 dots   0 images
+INFO(SPCOCN-1195): Group contains:   4 bodies   18 properties   0 notes   12 wires   2 dots   0 images
+INFO(SPCOCN-999): Signal: E-TX selected.
+INFO(SPCOCN-999): Signal: E-RX selected.
+INFO(SPCOCN-1001): Component: I4 selected.
+INFO(SPCOCN-1001): Component: I5 selected.
+INFO(SPCOCN-1001): Component: I6 selected.
+INFO(SPCOCN-1001): Component: I7 selected.
+INFO(SPCOCN-1195): Group contains:   0 bodies   2 properties   0 notes   8 wires   2 dots   0 images
+INFO(SPCOCN-999): Signal: E-TX selected.
+INFO(SPCOCN-999): Signal: E-TX selected.
+INFO(SPCOCN-999): Signal: E-RX selected.
+INFO(SPCOCN-999): Signal: E-RX selected.
+INFO(SPCOCN-1507): Adding version 1 of part BEE from library socket
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1195): Group contains:   1 bodies   1 properties   0 notes   1 wires   0 dots   0 images
+INFO(SPCOCN-999): Signal: E-TX selected.
+INFO(SPCOCN-999): Signal: E-RX selected.
+INFO(SPCOCN-999): Signal: E-RST selected.
+INFO(SPCOCN-999): Signal: GND selected.
+INFO(SPCOCN-1195): Group contains:   1 bodies   0 properties   0 notes   2 wires   0 dots   0 images
+INFO(SPCOCN-1195): Group contains:   2 bodies   5 properties   0 notes   3 wires   0 dots   0 images
+INFO(SPCOCN-999): Signal: E-FW selected.
+INFO(SPCOCN-1195): Group contains:   0 bodies   1 properties   0 notes   1 wires   0 dots   0 images
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <esp8266bee_lib>SCH.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.5-S056 (v16-5-13EB)
+
+Netlisting block sch
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-338): No schematic errors found.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <esp8266bee_lib>SCH.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.5-S056 (v16-5-13EB)
+
+Netlisting block sch
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1019): Save All completed.
+INFO(SPCOCN-1445): Reading SCH.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1195): Group contains:   3 bodies   9 properties   0 notes   6 wires   0 dots   0 images
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1507): Adding version 1 of part LED from library diode
+INFO(SPCOCN-1507): Adding version 1 of part RES from library discrete
+INFO(SPCOCN-1195): Group contains:   2 bodies   4 properties   0 notes   0 wires   0 dots   0 images
+INFO(SPCOCN-999): Signal: VCC-3V3 selected.
+INFO(SPCOCN-999): Signal: GND selected.
+INFO(SPCOCN-999): Signal: VCC-3V3 selected.
+INFO(SPCOCN-999): Signal: VCC-3V3 selected.
+INFO(SPCOCN-1195): Group contains:   4 bodies   5 properties   0 notes   3 wires   0 dots   0 images
+INFO(SPCOCN-1195): Group contains:   4 bodies   5 properties   0 notes   3 wires   0 dots   0 images
+INFO(SPCOCN-999): Signal: VCC-3V3 selected.
+INFO(SPCOCN-999): Signal: VCC-3V3 selected.
+INFO(SPCOCN-1001): Component: I50 selected.
+INFO(SPCOCN-1001): Component: I50 selected.
+INFO(SPCOCN-1001): Component: I55 selected.
+INFO(SPCOCN-1001): Component: I54 selected.
+INFO(SPCOCN-1001): Component: I54 selected.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <esp8266bee_lib>SCH.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.5-S056 (v16-5-13EB)
+
+Netlisting block sch
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1019): Save All completed.
+INFO(SPCOCN-999): Signal: E-RX selected.
+INFO(SPCOCN-1195): Group contains:   1 bodies   0 properties   0 notes   1 wires   0 dots   0 images
+INFO(SPCOCN-1195): Group contains:   1 bodies   0 properties   0 notes   1 wires   0 dots   0 images
+INFO(SPCOCN-999): Signal: E-RX selected.
+INFO(SPCOCN-999): Signal: E-TX selected.
+INFO(SPCOCN-1195): Group contains:   0 bodies   2 properties   0 notes   2 wires   0 dots   0 images
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <esp8266bee_lib>SCH.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.5-S056 (v16-5-13EB)
+
+Netlisting block sch
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1445): Reading SCH.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1195): Group contains:   4 bodies   8 properties   0 notes   4 wires   0 dots   0 images
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <esp8266bee_lib>SCH.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.5-S056 (v16-5-13EB)
+
+Netlisting block sch
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading SCH.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1195): Group contains:   0 bodies   3 properties   0 notes   3 wires   0 dots   0 images
+INFO(SPCOCN-999): Signal: IO3 selected.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <esp8266bee_lib>SCH.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.5-S056 (v16-5-13EB)
+
+Netlisting block sch
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading SCH.SCH.1.1 into drawing #1.

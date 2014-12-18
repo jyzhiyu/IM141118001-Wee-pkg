@@ -1,0 +1,2259 @@
+( ConstraintFile "sch"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 25 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "INDEX" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PCS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "sch"
+				( attribute "CDS_EDIT_PNS_STATUS" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-clk\"
+				( attribute "CDS_PHYS_NET_NAME" "E-CLK"
+					( Origin gPackager )
+				)
+				( objectStatus "E-CLK" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-cmd\"
+				( attribute "CDS_PHYS_NET_NAME" "E-CMD"
+					( Origin gPackager )
+				)
+				( objectStatus "E-CMD" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-d0\"
+				( attribute "CDS_PHYS_NET_NAME" "E-D0"
+					( Origin gPackager )
+				)
+				( objectStatus "E-D0" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-d1\"
+				( attribute "CDS_PHYS_NET_NAME" "E-D1"
+					( Origin gPackager )
+				)
+				( objectStatus "E-D1" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-d2\"
+				( attribute "CDS_PHYS_NET_NAME" "E-D2"
+					( Origin gPackager )
+				)
+				( objectStatus "E-D2" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-d3\"
+				( attribute "CDS_PHYS_NET_NAME" "E-D3"
+					( Origin gPackager )
+				)
+				( objectStatus "E-D3" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-en\"
+				( attribute "CDS_PHYS_NET_NAME" "E-EN"
+					( Origin gPackager )
+				)
+				( objectStatus "E-EN" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-fw\"
+				( attribute "CDS_PHYS_NET_NAME" "E-FW"
+					( Origin gPackager )
+				)
+				( objectStatus "E-FW" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-rst\"
+				( attribute "CDS_PHYS_NET_NAME" "E-RST"
+					( Origin gPackager )
+				)
+				( objectStatus "E-RST" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-rx\"
+				( attribute "CDS_PHYS_NET_NAME" "E-RX"
+					( Origin gPackager )
+				)
+				( objectStatus "E-RX" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\e-tx\"
+				( attribute "CDS_PHYS_NET_NAME" "E-TX"
+					( Origin gPackager )
+				)
+				( objectStatus "E-TX" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):gnd"
+				( alias ( signalRef "@esp8266bee_lib.sch(sch_1):page1_gnd") )
+				( attribute "VOLTAGE" "0"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "GND"
+					( Origin gPackager )
+				)
+				( objectStatus "GND" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):page1_gnd"
+				( attribute "VOLTAGE" "0"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\unnamed_1_ant-se_i30_1\"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_ANT-SE_I30_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_ANT-SE_I30_1" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_cap_i20_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CAP_I20_2"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_CAP_I20_2" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_cap_i22_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CAP_I22_2"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_CAP_I22_2" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_cap_i39_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CAP_I39_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_CAP_I39_1" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_esp8266_i41_res12k"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_ESP8266_I41_RES12K"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_ESP8266_I41_RES12K" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\vcc-3v3\"
+				( alias ( signalRef "@esp8266bee_lib.sch(sch_1):\page1_vcc-3v3\") )
+				( attribute "VOLTAGE" "3.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "VCC-3V3"
+					( Origin gPackager )
+				)
+				( objectStatus "VCC-3V3" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):\page1_vcc-3v3\"
+				( attribute "VOLTAGE" "3.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_vcc-3v3" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_led_i45_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_LED_I45_A"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_LED_I45_A" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_led_i50_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_LED_I50_A"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_LED_I50_A" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):unnamed_1_led_i54_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_LED_I54_A"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_LED_I54_A" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):pwm0"
+				( attribute "CDS_PHYS_NET_NAME" "PWM0"
+					( Origin gPackager )
+				)
+				( objectStatus "PWM0" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):pwm1"
+				( attribute "CDS_PHYS_NET_NAME" "PWM1"
+					( Origin gPackager )
+				)
+				( objectStatus "PWM1" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):pwm2"
+				( attribute "CDS_PHYS_NET_NAME" "PWM2"
+					( Origin gPackager )
+				)
+				( objectStatus "PWM2" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):scl"
+				( attribute "CDS_PHYS_NET_NAME" "SCL"
+					( Origin gPackager )
+				)
+				( objectStatus "SCL" )
+			)
+			( signal "@esp8266bee_lib.sch(sch_1):sda"
+				( attribute "CDS_PHYS_NET_NAME" "SDA"
+					( Origin gPackager )
+				)
+				( objectStatus "SDA" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i2"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF/25V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7300,4025)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10UF/25V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C13"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C13"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C13" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i11"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF/25V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7125,4025)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10UF/25V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C14"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C14" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i14"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "12PF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6875,3975)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-12PF/50V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C18"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C18"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C18" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i15"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "12PF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6700,3975)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-12PF/50V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C19"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C19"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C19" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i18"
+				( attribute "CDS_LIB" "ram_flash"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,200,250,-200"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "SOIC127P780X200-8"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "25Q80BVSIG"
+					( Origin gFrontEnd )
+				)
+				( attribute "PCS" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "/"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "25q80bvsig"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4225,2125)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "25Q80BVSIG"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "25Q80BVSIG_SMT-SOIC127P780X200A"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U6" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i20"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "12PF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5875,3250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-12PF/50V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C20"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C20"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C20" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i22"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "12PF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5375,3250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-12PF/50V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C21"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C21"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C21" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i23"
+				( attribute "CDS_LIB" "crystal_osc"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "XTAL4P"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "26MHZ"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5625,3450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "XTAL4P"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "XTAL4P_SMT-26MHZ,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "X2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "X2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "X2" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i26"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "12K|K|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3875,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-12K|K|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R4" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i28"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3250,3800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-10KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R5" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i30"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,50,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "JEDEC_TYPE" "ant1206"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "ANT-SE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PCS" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "/"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "2450AT18B100E"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3075,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ANT-SE"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ANT-SE_SMT-2450AT18B100E,1-ANTA"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "A1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "A1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "A1" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i35"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1550,3025)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-10KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R6" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i37"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1175,3025)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-10KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R7" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i39"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10PF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3600,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10PF/50V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C27"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C27"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C27" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i41"
+				( attribute "CDS_LIB" "misc_ic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,1200,300,-50"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "QFN50P500X500X80-33A"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "ESP8266"
+					( Origin gFrontEnd )
+				)
+				( attribute "PCS" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "/"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "esp8266"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4475,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ESP8266"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ESP8266_SMT-QFN50P500X500X80-3A"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U3" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i42"
+				( attribute "CDS_LIB" "socket"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,250,150,-300"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "PTH"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "BEE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "BEE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6400,1900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "BEE"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "BEE_PTH-BEE,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "A2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "A2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "A2" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i45"
+				( attribute "CDS_LIB" "diode"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,25,25,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "LED"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "GREEN"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6775,3125)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "LED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "LED_SMT-GREEN,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "D1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "D1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "D1" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i46"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7150,3125)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-1KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R1" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i50"
+				( attribute "CDS_LIB" "diode"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,25,25,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "LED"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "RED"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6775,2850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "LED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "LED_SMT-RED,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "D2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "D2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "D2" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i51"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7150,2850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-1KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R2" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i54"
+				( attribute "CDS_LIB" "diode"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-25,25,25,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "LED"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "BLUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6775,2575)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "LED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "LED_SMT-BLUE,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "D3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "D3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "D3" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i55"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7150,2575)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-1KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R3" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i57"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF/25V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7475,4025)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10UF/25V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i58"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF/25V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7650,4025)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10UF/25V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i60"
+				( attribute "CDS_LIB" "switch"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,50,50,-150"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "S_1P2T"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "SMD_7P"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1000,2575)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "S_1P2T"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "S_1P2T_SMT-SMD_7P,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "S1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "S1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "S1" )
+			)
+			( gate "@esp8266bee_lib.sch(sch_1):page1_i61"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3475,3500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-10KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R8" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i2:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C13.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i2:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C13.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i11:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C14.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i11:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C14.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i14:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C18.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i14:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C18.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i15:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C19.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i15:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C19.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:clk"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.6" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:\cs#\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:di"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.5" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:do"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:gnd"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.4" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:\hold#\"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.7" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:vcc"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.8" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i18:\wp#\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "U6.3" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i20:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C20.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i20:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C20.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i22:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C21.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i22:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C21.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i23:xtal1"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "X2.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i23:xtal2"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "X2.3" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i26:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R4.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i26:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R4.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i28:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R5.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i28:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R5.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i30:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "A1.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i35:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R6.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i35:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R6.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i37:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R7.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i37:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R7.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i39:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C27.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i39:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C27.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:dvdd"
+				( attribute "PN" "24"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.24" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:en"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.7" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:gnd"
+				( attribute "PN" "33"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.33" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:gpio0"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.15" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:gpio2"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.14" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:lna"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:mtck"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.12" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:mtdi"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.10" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:mtdo"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.13" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:mtms"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.9" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:res12k"
+				( attribute "PN" "31"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.31" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\rst#\"
+				( attribute "PN" "32"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.32" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:rxd"
+				( attribute "PN" "25"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.25" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:sdclk"
+				( attribute "PN" "21"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.21" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:sdcmd"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.20" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:sdio0"
+				( attribute "PN" "22"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.22" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:sdio1"
+				( attribute "PN" "23"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.23" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:sdio2"
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.18" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:sdio3"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.19" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:tout"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.6" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:txd"
+				( attribute "PN" "26"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.26" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:vdd"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.16" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vdd-rtc\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.5" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vdd3v3-1\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.3" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vdd3v3-2\"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.4" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vdda-1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vdda-2\"
+				( attribute "PN" "30"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.30" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:vddd"
+				( attribute "PN" "29"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.29" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vddpst-1\"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.11" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\vddpst-2\"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.17" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:\xpd-dcdc\"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.8" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:xtali"
+				( attribute "PN" "28"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.28" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i41:xtalo"
+				( attribute "PN" "27"
+					( Origin gPackager )
+				)
+				( objectStatus "U3.27" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\4\"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.4" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\6\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.6" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\7\"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.7" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\8\"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.8" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\9\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.9" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\11\"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.11" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\12\"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.12" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\13\"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.13" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\14\"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.14" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\15\"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.15" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\16\"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.16" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\17\"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.17" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\18\"
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.18" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\19\"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.19" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:\20\"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.20" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:din"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.3" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:dout"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:gnd"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.10" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:reset"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.5" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i42:vcc"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "A2.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i45:a"
+				( attribute "PN" "A"
+					( Origin gPackager )
+				)
+				( objectStatus "D1.A" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i45:c"
+				( attribute "PN" "C"
+					( Origin gPackager )
+				)
+				( objectStatus "D1.C" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i46:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R1.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i46:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R1.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i50:a"
+				( attribute "PN" "A"
+					( Origin gPackager )
+				)
+				( objectStatus "D2.A" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i50:c"
+				( attribute "PN" "C"
+					( Origin gPackager )
+				)
+				( objectStatus "D2.C" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i51:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R2.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i51:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R2.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i54:a"
+				( attribute "PN" "A"
+					( Origin gPackager )
+				)
+				( objectStatus "D3.A" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i54:c"
+				( attribute "PN" "C"
+					( Origin gPackager )
+				)
+				( objectStatus "D3.C" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i55:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R3.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i55:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R3.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i57:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i57:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C2.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i58:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i58:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C1.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i60:a"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "S1.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i60:b"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "S1.3" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i60:com"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "S1.2" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i61:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R8.1" )
+			)
+			( pin "@esp8266bee_lib.sch(sch_1):page1_i61:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R8.2" )
+			)
+		)
+	)
+)

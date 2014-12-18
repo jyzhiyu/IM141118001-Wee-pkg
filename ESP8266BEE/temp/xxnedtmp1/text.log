@@ -1,0 +1,48 @@
+Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014
+Copyright 2011 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2040): Specify the command "page forcereset all" to reset logical page numbers of all pages of this block.
+WARNING(SPCOCN-1523): Invalid set option: <search_history_count>
+INFO(SPCOCN-1177): Unexpected text: <5>
+WARNING(SPCOCN-1523): Invalid set option: <search_history>
+WARNING(SPCOCN-1523): Invalid set option: <search_toolbar_lookin>
+INFO(SPCOCN-1177): Unexpected text: <PAGE>
+WARNING(SPCOCN-1523): Invalid set option: <modify_quick_reset_filters>
+INFO(SPCOCN-1177): Unexpected text: <OFF>
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading C:\Users\jyzhiyu\Desktop\IM141118001-Wee-pkg\IM141118001-Wee\ESP8266BEE\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading SCH.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'C:\Cadence\SPB_16.5\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading SCH.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-999): Signal: GND selected.
+INFO(SPCOCN-1001): Component: I28 selected.
+INFO(SPCOCN-1001): Component: I61 selected.
+WARNING(SPCOCN-982): The operation could not be performed because no object on the drawing was selected.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-1848): Grid too small. Not displayed.
+INFO(SPCOCN-999): Signal: IO4 selected.

@@ -1,0 +1,73 @@
+Wed Nov 12 11:53:49 2014				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed Nov 12 11:53:49 2014
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : esp8266bee.brd                                )
+(    Software Version : 16.5S056                                      )
+(    Date/Time        : Wed Nov 12 11:53:50 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Nov 12 11:53:50 2014				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design = 'C:/Users/jyzhiyu/Dropbox/work/ESP8266BEE/worklib/sch/physical/esp8266bee.brd'
+Output design = ''
+Update mechanical symbols = 'NO'
+Update format symbols = 'NO'
+Update package symbols = 'YES'
+Update shape/flash symbols = 'NO'
+Update symbol padstacks = 'NO'
+Reset symbol text and size locations = 'NO'
+Reset Pin Escapes (fanouts) = 'NO'
+Ripup Etch = 'NO'
+Reset custom drill data = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           z:/PCBSymbol/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           z:/PCBSYMBOL/ 
+
+
+------ Symbol Refresh Messages ------
+
+'LED0603'  symbol refreshed successfully.
+'OSCCC250X320X100'  symbol refreshed successfully.
+'SOIC127P780X200-8'  symbol refreshed successfully.
+'QFN50P500X500X80-33A'  symbol refreshed successfully.
+'ZCZ254-1X2'  symbol refreshed successfully.
+'STD0603'  symbol refreshed successfully.
+'BEE_SOCKET'  symbol refreshed successfully.
+'ANT1206'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Completed refreshing all symbols successfully.

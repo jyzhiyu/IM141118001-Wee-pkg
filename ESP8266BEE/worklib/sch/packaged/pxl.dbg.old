@@ -1,0 +1,46 @@
+Log File: C:\Users\jyzhiyu\AppData\Local\Temp\s9d0.
+Markers File: C:\Users\jyzhiyu\AppData\Local\Temp\s9d0.1
+Debug File: C:\Users\jyzhiyu\AppData\Local\Temp\s9d0.3
+     Debug[0] := TRUE
+Elapsed time since start = (00:00:01)
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+INFO(SPCODD-95): State file primitive @ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I36@CONNECTOR.CON_2X1(CHIPS) has been deleted from the design.
+Elapsed time since start = (00:00:04)
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+Elapsed time since start = (00:00:04)
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+Elapsed time since start = (00:00:04)
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+DDB_INFO: State file for design SCH successfully written.
+DDB_INFO: Pst files for design SCH successfully written.

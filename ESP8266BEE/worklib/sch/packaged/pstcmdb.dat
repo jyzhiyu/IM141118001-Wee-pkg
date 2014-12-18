@@ -1,0 +1,573 @@
+; Packager-XL run on 16-Dec-2014 AT 20:20:52 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "sch"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 23 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "INDEX" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PCS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "sch"
+				( objectFlag fObjectReadOnly )
+				( objectStatus sObjectLogicalNet )
+			)
+			( signal "E-CLK"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-clk\" )
+			)
+			( signal "E-CMD"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-cmd\" )
+			)
+			( signal "E-D0"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-d0\" )
+			)
+			( signal "E-D1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-d1\" )
+			)
+			( signal "E-D2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-d2\" )
+			)
+			( signal "E-D3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-d3\" )
+			)
+			( signal "E-EN"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-en\" )
+			)
+			( signal "E-FW"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-fw\" )
+			)
+			( signal "E-RST"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-rst\" )
+			)
+			( signal "E-RX"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-rx\" )
+			)
+			( signal "E-TX"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\e-tx\" )
+			)
+			( signal "GND"
+				( attribute "VOLTAGE" "0"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@esp8266bee_lib.sch(sch_1):gnd" )
+			)
+			( signal "UNNAMED_1_ANT-SE_I30_1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\unnamed_1_ant-se_i30_1\" )
+			)
+			( signal "UNNAMED_1_CAP_I20_2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_cap_i20_2" )
+			)
+			( signal "UNNAMED_1_CAP_I22_2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_cap_i22_2" )
+			)
+			( signal "UNNAMED_1_CAP_I39_1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_cap_i39_1" )
+			)
+			( signal "UNNAMED_1_ESP8266_I41_RES12K"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_esp8266_i41_res12k" )
+			)
+			( signal "VCC-3V3"
+				( attribute "VOLTAGE" "3.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@esp8266bee_lib.sch(sch_1):\vcc-3v3\" )
+			)
+			( signal "UNNAMED_1_LED_I45_A"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_led_i45_a" )
+			)
+			( signal "UNNAMED_1_LED_I50_A"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_led_i50_a" )
+			)
+			( signal "UNNAMED_1_LED_I54_A"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):unnamed_1_led_i54_a" )
+			)
+			( signal "PWM0"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):pwm0" )
+			)
+			( signal "PWM1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):pwm1" )
+			)
+			( signal "PWM2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):pwm2" )
+			)
+			( signal "SCL"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):scl" )
+			)
+			( signal "SDA"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):sda" )
+			)
+			( gate "C13"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i2" )
+			)
+			( gate "C14"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i11" )
+			)
+			( gate "C18"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i14" )
+			)
+			( gate "C19"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i15" )
+			)
+			( gate "U6"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18" )
+			)
+			( gate "C20"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i20" )
+			)
+			( gate "C21"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i22" )
+			)
+			( gate "X2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i23" )
+			)
+			( gate "R4"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i26" )
+			)
+			( gate "R5"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i28" )
+			)
+			( gate "A1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i30" )
+			)
+			( gate "R6"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i35" )
+			)
+			( gate "R7"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i37" )
+			)
+			( gate "C27"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i39" )
+			)
+			( gate "U3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41" )
+			)
+			( gate "A2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42" )
+			)
+			( gate "D1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i45" )
+			)
+			( gate "R1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i46" )
+			)
+			( gate "D2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i50" )
+			)
+			( gate "R2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i51" )
+			)
+			( gate "D3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i54" )
+			)
+			( gate "R3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i55" )
+			)
+			( gate "C2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i57" )
+			)
+			( gate "C1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i58" )
+			)
+			( gate "S1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i60" )
+			)
+			( gate "R8"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i61" )
+			)
+			( pin "C13.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i2:\1\" )
+			)
+			( pin "C13.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i2:\2\" )
+			)
+			( pin "C14.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i11:\1\" )
+			)
+			( pin "C14.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i11:\2\" )
+			)
+			( pin "C18.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i14:\1\" )
+			)
+			( pin "C18.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i14:\2\" )
+			)
+			( pin "C19.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i15:\1\" )
+			)
+			( pin "C19.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i15:\2\" )
+			)
+			( pin "U6.6"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:clk" )
+			)
+			( pin "U6.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:\cs#\" )
+			)
+			( pin "U6.5"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:di" )
+			)
+			( pin "U6.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:do" )
+			)
+			( pin "U6.4"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:gnd" )
+			)
+			( pin "U6.7"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:\hold#\" )
+			)
+			( pin "U6.8"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:vcc" )
+			)
+			( pin "U6.3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i18:\wp#\" )
+			)
+			( pin "C20.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i20:\1\" )
+			)
+			( pin "C20.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i20:\2\" )
+			)
+			( pin "C21.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i22:\1\" )
+			)
+			( pin "C21.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i22:\2\" )
+			)
+			( pin "X2.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i23:xtal1" )
+			)
+			( pin "X2.3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i23:xtal2" )
+			)
+			( pin "R4.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i26:\1\" )
+			)
+			( pin "R4.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i26:\2\" )
+			)
+			( pin "R5.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i28:\1\" )
+			)
+			( pin "R5.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i28:\2\" )
+			)
+			( pin "A1.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i30:\1\" )
+			)
+			( pin "R6.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i35:\1\" )
+			)
+			( pin "R6.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i35:\2\" )
+			)
+			( pin "R7.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i37:\1\" )
+			)
+			( pin "R7.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i37:\2\" )
+			)
+			( pin "C27.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i39:\1\" )
+			)
+			( pin "C27.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i39:\2\" )
+			)
+			( pin "U3.24"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:dvdd" )
+			)
+			( pin "U3.7"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:en" )
+			)
+			( pin "U3.33"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:gnd" )
+			)
+			( pin "U3.15"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:gpio0" )
+			)
+			( pin "U3.14"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:gpio2" )
+			)
+			( pin "U3.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:lna" )
+			)
+			( pin "U3.12"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:mtck" )
+			)
+			( pin "U3.10"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:mtdi" )
+			)
+			( pin "U3.13"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:mtdo" )
+			)
+			( pin "U3.9"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:mtms" )
+			)
+			( pin "U3.31"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:res12k" )
+			)
+			( pin "U3.32"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\rst#\" )
+			)
+			( pin "U3.25"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:rxd" )
+			)
+			( pin "U3.21"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:sdclk" )
+			)
+			( pin "U3.20"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:sdcmd" )
+			)
+			( pin "U3.22"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:sdio0" )
+			)
+			( pin "U3.23"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:sdio1" )
+			)
+			( pin "U3.18"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:sdio2" )
+			)
+			( pin "U3.19"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:sdio3" )
+			)
+			( pin "U3.6"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:tout" )
+			)
+			( pin "U3.26"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:txd" )
+			)
+			( pin "U3.16"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:vdd" )
+			)
+			( pin "U3.5"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vdd-rtc\" )
+			)
+			( pin "U3.3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vdd3v3-1\" )
+			)
+			( pin "U3.4"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vdd3v3-2\" )
+			)
+			( pin "U3.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vdda-1\" )
+			)
+			( pin "U3.30"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vdda-2\" )
+			)
+			( pin "U3.29"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:vddd" )
+			)
+			( pin "U3.11"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vddpst-1\" )
+			)
+			( pin "U3.17"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\vddpst-2\" )
+			)
+			( pin "U3.8"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:\xpd-dcdc\" )
+			)
+			( pin "U3.28"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:xtali" )
+			)
+			( pin "U3.27"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i41:xtalo" )
+			)
+			( pin "A2.4"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\4\" )
+			)
+			( pin "A2.6"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\6\" )
+			)
+			( pin "A2.7"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\7\" )
+			)
+			( pin "A2.8"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\8\" )
+			)
+			( pin "A2.9"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\9\" )
+			)
+			( pin "A2.11"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\11\" )
+			)
+			( pin "A2.12"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\12\" )
+			)
+			( pin "A2.13"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\13\" )
+			)
+			( pin "A2.14"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\14\" )
+			)
+			( pin "A2.15"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\15\" )
+			)
+			( pin "A2.16"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\16\" )
+			)
+			( pin "A2.17"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\17\" )
+			)
+			( pin "A2.18"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\18\" )
+			)
+			( pin "A2.19"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\19\" )
+			)
+			( pin "A2.20"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:\20\" )
+			)
+			( pin "A2.3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:din" )
+			)
+			( pin "A2.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:dout" )
+			)
+			( pin "A2.10"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:gnd" )
+			)
+			( pin "A2.5"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:reset" )
+			)
+			( pin "A2.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i42:vcc" )
+			)
+			( pin "D1.A"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i45:a" )
+			)
+			( pin "D1.C"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i45:c" )
+			)
+			( pin "R1.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i46:\1\" )
+			)
+			( pin "R1.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i46:\2\" )
+			)
+			( pin "D2.A"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i50:a" )
+			)
+			( pin "D2.C"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i50:c" )
+			)
+			( pin "R2.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i51:\1\" )
+			)
+			( pin "R2.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i51:\2\" )
+			)
+			( pin "D3.A"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i54:a" )
+			)
+			( pin "D3.C"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i54:c" )
+			)
+			( pin "R3.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i55:\1\" )
+			)
+			( pin "R3.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i55:\2\" )
+			)
+			( pin "C2.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i57:\1\" )
+			)
+			( pin "C2.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i57:\2\" )
+			)
+			( pin "C1.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i58:\1\" )
+			)
+			( pin "C1.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i58:\2\" )
+			)
+			( pin "S1.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i60:a" )
+			)
+			( pin "S1.3"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i60:b" )
+			)
+			( pin "S1.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i60:com" )
+			)
+			( pin "R8.1"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i61:\1\" )
+			)
+			( pin "R8.2"
+				( objectStatus "@esp8266bee_lib.sch(sch_1):page1_i61:\2\" )
+			)
+		)
+	)
+)

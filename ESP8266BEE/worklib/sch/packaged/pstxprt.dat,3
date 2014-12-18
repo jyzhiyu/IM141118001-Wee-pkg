@@ -1,0 +1,542 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 19-Nov-2014 AT 10:24:04 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SCH';
+ POST_TIME='19-Nov-2014 AT 10:24:04';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ A1 'ANT-SE_SMT-2450AT18B100E,1-ANTA':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I30@DISCRETE.ANT-SE(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i30@discrete.\ant-se\(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i30@discrete.\ant-se\(chips)',
+ PATH='I30',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ PCS='1',
+ INDEX='1',
+ PN='/',
+ PHYS_PAGE='1',
+ XY='(-3075,4450)',
+ ROT='0',
+ VER='1',
+ VALUE='2450AT18B100E',
+ PACK_TYPE='SMT',
+ PART_NAME='ANT-SE',
+ JEDEC_TYPE='ANT1206',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='ANT-SE_SMT-2450AT18B100E,1-ANTA',
+ PRIM_FILE='z:/logicsymbol/discrete/ant#2dse/chips/chips.prt';
+
+PART_NAME
+ A2 'BEE-BEE,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I42@SOCKET.BEE(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i42@socket.bee(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i42@socket.bee(chips)',
+ PATH='I42',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6400,1900)',
+ ROT='0',
+ VER='1',
+ VALUE='BEE',
+ PACK_TYPE='PTH',
+ PART_NAME='BEE',
+ CDS_LIB='socket',
+ CDS_PART_NAME='BEE_PTH-BEE,1',
+ PRIM_FILE='z:/logicsymbol/socket/bee/chips/chips.prt';
+
+PART_NAME
+ C1 'CAP-10UF/25V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I58@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i58@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i58@discrete.cap(chips)',
+ PATH='I58',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7650,4025)',
+ ROT='1',
+ VER='1',
+ VALUE='10UF/25V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10UF/25V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C2 'CAP-10UF/25V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I57@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i57@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i57@discrete.cap(chips)',
+ PATH='I57',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7475,4025)',
+ ROT='1',
+ VER='1',
+ VALUE='10UF/25V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10UF/25V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C13 'CAP-10UF/25V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I2@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i2@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i2@discrete.cap(chips)',
+ PATH='I2',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7300,4025)',
+ ROT='1',
+ VER='1',
+ VALUE='10UF/25V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10UF/25V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C14 'CAP-10UF/25V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I11@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i11@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i11@discrete.cap(chips)',
+ PATH='I11',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7125,4025)',
+ ROT='1',
+ VER='1',
+ VALUE='10UF/25V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10UF/25V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C18 'CAP-12PF/50V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I14@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i14@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i14@discrete.cap(chips)',
+ PATH='I14',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6875,3975)',
+ ROT='1',
+ VER='1',
+ VALUE='12PF/50V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-12PF/50V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C19 'CAP-12PF/50V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I15@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i15@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i15@discrete.cap(chips)',
+ PATH='I15',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6700,3975)',
+ ROT='1',
+ VER='1',
+ VALUE='12PF/50V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-12PF/50V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C20 'CAP-12PF/50V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I20@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i20@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i20@discrete.cap(chips)',
+ PATH='I20',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-5875,3250)',
+ ROT='1',
+ VER='1',
+ VALUE='12PF/50V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-12PF/50V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C21 'CAP-12PF/50V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I22@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i22@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i22@discrete.cap(chips)',
+ PATH='I22',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-5375,3250)',
+ ROT='1',
+ VER='1',
+ VALUE='12PF/50V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-12PF/50V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C27 'CAP-10PF/50V/0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I39@DISCRETE.CAP(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i39@discrete.cap(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i39@discrete.cap(chips)',
+ PATH='I39',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-3600,4450)',
+ ROT='0',
+ VER='1',
+ VALUE='10PF/50V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10PF/50V/0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ D1 'LED-GREEN,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I45@DIODE.LED(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i45@diode.led(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i45@diode.led(chips)',
+ PATH='I45',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6775,3125)',
+ ROT='0',
+ VER='1',
+ VALUE='GREEN',
+ PACK_TYPE='SMT',
+ PART_NAME='LED',
+ CDS_LIB='diode',
+ CDS_PART_NAME='LED_SMT-GREEN,1',
+ PRIM_FILE='z:/logicsymbol/diode/led/chips/chips.prt';
+
+PART_NAME
+ D2 'LED-RED,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I50@DIODE.LED(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i50@diode.led(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i50@diode.led(chips)',
+ PATH='I50',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6775,2850)',
+ ROT='0',
+ VER='1',
+ VALUE='RED',
+ PACK_TYPE='SMT',
+ PART_NAME='LED',
+ CDS_LIB='diode',
+ CDS_PART_NAME='LED_SMT-RED,1',
+ PRIM_FILE='z:/logicsymbol/diode/led/chips/chips.prt';
+
+PART_NAME
+ D3 'LED-BLUE,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I54@DIODE.LED(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i54@diode.led(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i54@diode.led(chips)',
+ PATH='I54',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6775,2575)',
+ ROT='0',
+ VER='1',
+ VALUE='BLUE',
+ PACK_TYPE='SMT',
+ PART_NAME='LED',
+ CDS_LIB='diode',
+ CDS_PART_NAME='LED_SMT-BLUE,1',
+ PRIM_FILE='z:/logicsymbol/diode/led/chips/chips.prt';
+
+PART_NAME
+ R1 'RES-1KR|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I46@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i46@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i46@discrete.res(chips)',
+ PATH='I46',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7150,3125)',
+ ROT='0',
+ VER='1',
+ VALUE='1KR|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-1KR|J|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R2 'RES-1KR|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I51@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i51@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i51@discrete.res(chips)',
+ PATH='I51',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7150,2850)',
+ ROT='0',
+ VER='1',
+ VALUE='1KR|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-1KR|J|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R3 'RES-1KR|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I55@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i55@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i55@discrete.res(chips)',
+ PATH='I55',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7150,2575)',
+ ROT='0',
+ VER='1',
+ VALUE='1KR|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-1KR|J|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R4 'RES-12K|K|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I26@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i26@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i26@discrete.res(chips)',
+ PATH='I26',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-3875,3300)',
+ ROT='0',
+ VER='1',
+ VALUE='12K|K|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-12K|K|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R5 'RES-10KR|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I28@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i28@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i28@discrete.res(chips)',
+ PATH='I28',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-3250,3800)',
+ ROT='0',
+ VER='1',
+ VALUE='10KR|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-10KR|J|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R6 'RES-10KR|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I35@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i35@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i35@discrete.res(chips)',
+ PATH='I35',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-1550,3025)',
+ ROT='1',
+ VER='1',
+ VALUE='10KR|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-10KR|J|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R7 'RES-10KR|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I37@DISCRETE.RES(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i37@discrete.res(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i37@discrete.res(chips)',
+ PATH='I37',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-1175,3025)',
+ ROT='1',
+ VER='1',
+ VALUE='10KR|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-10KR|J|0603,1',
+ PRIM_FILE='z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ S1 'S_1P2T_SMT-SMD_7P,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I60@SWITCH.S_1P2T(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i60@switch.s_1p2t(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i60@switch.s_1p2t(chips)',
+ PATH='I60',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-1000,2575)',
+ ROT='0',
+ VER='1',
+ VALUE='SMD_7P',
+ PACK_TYPE='SMT',
+ PART_NAME='S_1P2T',
+ CDS_LIB='switch',
+ CDS_PART_NAME='S_1P2T_SMT-SMD_7P,1',
+ PRIM_FILE='z:/logicsymbol/switch/s_1p2t/chips/chips.prt';
+
+PART_NAME
+ U3 'ESP8266_SMT-QFN50P500X500X80-3A':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I41@MISC_IC.ESP8266(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i41@misc_ic.esp8266(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i41@misc_ic.esp8266(chips)',
+ PATH='I41',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ PCS='1',
+ PN='/',
+ PHYS_PAGE='1',
+ XY='(-4475,3300)',
+ ROT='0',
+ VER='1',
+ VALUE='esp8266',
+ PACK_TYPE='SMT',
+ PART_NAME='ESP8266',
+ JEDEC_TYPE='QFN50P500X500X80-33A',
+ CDS_LIB='misc_ic',
+ CDS_PART_NAME='ESP8266_SMT-QFN50P500X500X80-3A',
+ PRIM_FILE='z:/logicsymbol/misc_ic/esp8266/chips/chips.prt';
+
+PART_NAME
+ U6 '25Q80BVSIG_SMT-SOIC127P780X200A':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I18@RAM_FLASH.25Q80BVSIG(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i18@ram_flash.\25q80bvsig\(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i18@ram_flash.\25q80bvsig\(chips)',
+ PATH='I18',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ PCS='1',
+ PN='/',
+ PHYS_PAGE='1',
+ XY='(-4225,2125)',
+ ROT='0',
+ VER='1',
+ VALUE='25q80bvsig',
+ PACK_TYPE='SMT',
+ PART_NAME='25Q80BVSIG',
+ JEDEC_TYPE='SOIC127P780X200-8',
+ CDS_LIB='ram_flash',
+ CDS_PART_NAME='25Q80BVSIG_SMT-SOIC127P780X200A',
+ PRIM_FILE='z:/logicsymbol/ram_flash/25q80bvsig/chips/chips.prt';
+
+PART_NAME
+ X2 'XTAL4P-26MHZ,1':;
+
+SECTION_NUMBER 1
+ '@ESP8266BEE_LIB.SCH(SCH_1):PAGE1_I23@CRYSTAL_OSC.XTAL4P(CHIPS)':
+ C_PATH='@esp8266bee_lib.sch(sch_1):page1_i23@crystal_osc.xtal4p(chips)',
+ P_PATH='@esp8266bee_lib.sch(sch_1):page1_i23@crystal_osc.xtal4p(chips)',
+ PATH='I23',
+ DRAWING='@ESP8266BEE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-5625,3450)',
+ ROT='0',
+ VER='1',
+ VALUE='26MHZ',
+ PACK_TYPE='SMT',
+ PART_NAME='XTAL4P',
+ CDS_LIB='crystal_osc',
+ CDS_PART_NAME='XTAL4P_SMT-26MHZ,1',
+ PRIM_FILE='z:/logicsymbol/crystal_osc/xtal4p/chips/chips.prt';
+
+END.

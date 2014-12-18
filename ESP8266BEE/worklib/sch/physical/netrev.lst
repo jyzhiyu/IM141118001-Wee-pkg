@@ -1,0 +1,103 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : wee.brd                                       )
+(    Software Version : 16.5S056                                      )
+(    Date/Time        : Tue Dec 16 20:20:59 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:\Users\jyzhiyu\Desktop\IM141118001-Wee-pkg\IM141118001-Wee\ESP8266BEE\worklib\sch\packaged';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/wee.brd';
+NEW_BOARD_NAME 'C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/physical/wee.brd';
+
+CmdLine: netrev -proj C:\Users\jyzhiyu\Desktop\IM141118001-Wee-pkg\IM141118001-Wee\ESP8266BEE\esp8266bee.cpm -5 -y 1 -O C:\Users\jyzhiyu\Desktop\IM141118001-Wee-pkg\IM141118001-Wee\ESP8266BEE\worklib\sch\physical\wee.brd C:\Users\jyzhiyu\Desktop\IM141118001-Wee-pkg\IM141118001-Wee\ESP8266BEE\worklib\sch\physical\wee.brd -$
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstchip.dat 
+   Finished reading C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstchip.dat (00:00:00.26)
+Starting to read C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstxprt.dat 
+   Finished reading C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstxnet.dat 
+   Finished reading C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    C:/Users/jyzhiyu/Desktop/IM141118001-Wee-pkg/IM141118001-Wee/ESP8266BEE/worklib/sch/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/jyzhiyu/AppData/Local/Temp/#Taaaaad09044.tmp
+	Start time: Tue Dec 16 20:20:59 2014
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Tue Dec 16 20:20:59 2014
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.5/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           z:/PCBSymbol/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           z:/PCBSYMBOL/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 16 20:20:59 2014
+   DESIGN NAME : 'SCH'
+   PACKAGING ON 16-Dec-2014 AT 20:20:52
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'esp8266bee_lib' 'standard' 'connector' 'crystal_osc' 'diode'
+              'discrete' 'disp' 'itead_standard_lib' 'logic' 'mcu' 'misc_ic'
+              'module' 'mtg' 'opamp' 'others' 'ram_flash' 'regulator' 'relay'
+              'sensor' 'socket' 'sonic_socket' 'std' 'switch' 'transistor'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:02:46
+elapsed time  0:00:00
+

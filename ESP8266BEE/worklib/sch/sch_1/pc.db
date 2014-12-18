@@ -1,0 +1,148 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014 on Tue Dec 16 20:11:48 2014
+#ISCELL
+  standard b#20size#20page *
+  *
+#ISCELL
+  standard gnd *
+  page1_i1
+#ISCELL
+  standard gnd *
+  page1_i10
+#CELL
+  discrete cap *
+  page1_i11
+#ISCELL
+  standard gnd *
+  page1_i12
+#ISCELL
+  standard gnd *
+  page1_i13
+#CELL
+  discrete cap *
+  page1_i14
+#CELL
+  discrete cap *
+  page1_i15
+#ISCELL
+  standard gnd *
+  page1_i17
+#CELL
+  ram_flash 25q80bvsig *
+  page1_i18
+#ISCELL
+  standard gnd *
+  page1_i19
+#CELL
+  discrete cap *
+  page1_i2
+#CELL
+  discrete cap *
+  page1_i20
+#ISCELL
+  standard gnd *
+  page1_i21
+#CELL
+  discrete cap *
+  page1_i22
+#CELL
+  crystal_osc xtal4p *
+  page1_i23
+#ISCELL
+  standard gnd *
+  page1_i24
+#ISCELL
+  standard vcc_bar *
+  page1_i25
+#CELL
+  discrete res *
+  page1_i26
+#ISCELL
+  standard gnd *
+  page1_i27
+#CELL
+  discrete res *
+  page1_i28
+#ISCELL
+  standard vcc_bar *
+  page1_i29
+#ISCELL
+  standard vcc_bar *
+  page1_i3
+#CELL
+  discrete ant-se *
+  page1_i30
+#ISCELL
+  standard gnd *
+  page1_i31
+#ISCELL
+  standard vcc_bar *
+  page1_i34
+#CELL
+  discrete res *
+  page1_i35
+#CELL
+  discrete res *
+  page1_i37
+#ISCELL
+  standard vcc_bar *
+  page1_i38
+#CELL
+  discrete cap *
+  page1_i39
+#ISCELL
+  standard vcc_bar *
+  page1_i40
+#CELL
+  misc_ic esp8266 *
+  page1_i41
+#CELL
+  socket bee *
+  page1_i42
+#ISCELL
+  standard vcc_bar *
+  page1_i43
+#ISCELL
+  standard gnd *
+  page1_i44
+#CELL
+  diode led *
+  page1_i45
+#CELL
+  discrete res *
+  page1_i46
+#ISCELL
+  standard vcc_bar *
+  page1_i47
+#ISCELL
+  standard gnd *
+  page1_i48
+#CELL
+  diode led *
+  page1_i50
+#CELL
+  discrete res *
+  page1_i51
+#CELL
+  diode led *
+  page1_i54
+#CELL
+  discrete res *
+  page1_i55
+#ISCELL
+  standard gnd *
+  page1_i56
+#CELL
+  discrete cap *
+  page1_i57
+#CELL
+  discrete cap *
+  page1_i58
+#ISCELL
+  standard gnd *
+  page1_i59
+#CELL
+  switch s_1p2t *
+  page1_i60
+#CELL
+  discrete res *
+  page1_i61

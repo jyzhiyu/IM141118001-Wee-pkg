@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : esp8266bee.brd                                )
+(    Software Version : 16.5S057                                      )
+(    Date/Time        : Wed Nov 12 11:24:40 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 5
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (489.5 386.4)  Net: GND
+	Point on shape: (340.7 335.1)  Net: GND
+	Point on shape: (284.8 335.1)  Net: GND
+	Point on shape: (308.3 399.7)  Net: GND
+	Point on shape: (316.7 533.3)  Net: GND
